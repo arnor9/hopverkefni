@@ -1,0 +1,21 @@
+
+button {
+        width: 250px;
+        height: 52px;
+        border: 1px solid #E3CDB1;
+        box-sizing: border-box;
+        background-color: transparent;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        text-align: center;
+        color: #E3CDB1;
+        margin: 1em 0em; }
+        button:hover {
+          background-color: #E3CDB1;
+          color: #FFFFFF; }
+        @media (max-width: 500px) {
+          button {
+            width: 191px;
+            height: 42px; } }

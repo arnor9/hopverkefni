@@ -1,0 +1,12 @@
+{
+    "_comment" : "notum fyrir bæði css og scss",
+    "extends": ["stylelint-config-standard","stylelint-config-sass-guidelines"],
+    
+    "plugins": [
+        "stylelint-config-sass-guidelines",
+        "stylelint-config-standard"
+    ],
+
+    "no-eol-whitespace": true,
+    "no-extra-semicolones": true
+}
