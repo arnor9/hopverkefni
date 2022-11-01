@@ -161,9 +161,16 @@ button:hover {
   color: #9B9B9B;
 }
 
+.header li:nth-child(1) {
+  visibility: hidden;
+}
+
 @media (max-width: 500px) {
   .header .logo {
     padding: 15px 10px;
+  }
+  .header li a :nth-child(1) {
+    visibility: visible;
   }
 }
 .header .menu {
@@ -187,7 +194,7 @@ button:hover {
   display: block;
   height: 2px;
   position: relative;
-  transition: background 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
   width: 18px;
 }
 
@@ -273,6 +280,13 @@ button:hover {
   .header_fullscreen {
     margin-left: -30px;
   }
+  .hero_text {
+    display: none;
+  }
+  .hero_text .hero_heading h1 {
+    display: flex;
+    font-size: 0.001rem;
+  }
 }
 .hero_grid {
   max-width: 1290px;
@@ -294,6 +308,12 @@ button:hover {
   background-color: #FAFAFA;
 }
 
+@media (max-width: 500px) {
+  .hero {
+    background-position-x: 622px;
+    background-position-y: 935px;
+  }
+}
 .hero_content {
   position: absolute;
   margin: 0;
@@ -714,6 +734,9 @@ button:hover {
   .social_media {
     padding-left: 25px;
     padding-right: 25px;
+  }
+  .social_media img {
+    background-color: #D0D0D0;
   }
 }
 .subscribe {
