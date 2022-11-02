@@ -1,1 +1,29 @@
-/*test skil*/
+Keyrsla á verkefninu:
+
+Áður en verkefnið er keyrt þarf að setja upp Node.js pakka í terminal. Til þess að sækja alla pakka er keyrð skipun: npm install. Næst þarf að keyra browser sync og sass saman með skipuninni: npm run dev. Að lokum til að keyra styleint: npm run lint -scss.
+
+Lýsing á verkefninu:
+
+Verkefnið er unnið af fjórum nemendum í áfanganum Vefforritun 1 við Háskóla Íslands. Markmið verkefnisins er að smíða og hanna vefsíðu frá grunni. Verkefnið er unnið eftir fyrirmynd sem gefin er í Figma. Allar myndir, litir og stærðir eru teknar úr Figma.
+Útlit vefsíðunnar er mótuð í skránni styles.scss sem er síðan þýtt yfir í skránna styles.css. Í möppunni scss/ má finna .scss skrár fyrir hvern og einn útlitshluta vefsíðunnar. Verkefnið er skipt upp í eftirfarandi möppur og skrár:
+
+* sidur/ : .htlml skrár fyrir undirsíður
+* myndir/ : Myndir sem notaðar eru á vefsíðu
+* scss/ : .scssskrár
+* node_modules/ : Geymir kóða fyrir alla pakka sem byggt er á
+* grid
+* package.json 
+
+
+
+Verkefnið var unnið af :
+* Agla María Kristjánsdóttir, amk52@hi.is
+* Arnór Gunnarsson, ag82@hi.is
+* Elvar Karl Auðunsson, eka14@hi.is
+* Thor Sanchez, ths281@hi.is
+
+GitHub notendanöfn:
+* aglamk
+* arnor9
+* ElvarKarl
+* thorsanchez
