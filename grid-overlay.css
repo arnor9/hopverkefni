@@ -9,7 +9,6 @@
     --background-width: calc(100% + var(--gutter));
     --background-columns: repeating-linear-gradient(
       to right,
-      var(--color),
       var(--color) var(--column-width),
       transparent var(--column-width),
       transparent var(--repeating-width)
