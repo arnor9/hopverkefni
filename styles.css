@@ -32,7 +32,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Playfair Display";
+  font-style: normal;
   font-size: 40px;
   font-weight: bold;
 }
@@ -53,13 +54,14 @@ h3 {
 }
 
 h4 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Playfair Display";
+  font-style: normal;
 }
 
 a {
-  font-family: "Poppins", helvetica, arial, sans-serif;
-  font-size: 16px;
+  font-family: "Poppins";
   font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   color: #E3CDB1;
   text-decoration: none !important;
@@ -161,16 +163,9 @@ button:hover {
   color: #9B9B9B;
 }
 
-.header li:nth-child(1) {
-  visibility: hidden;
-}
-
 @media (max-width: 500px) {
   .header .logo {
     padding: 15px 10px;
-  }
-  .header li a :nth-child(1) {
-    visibility: visible;
   }
 }
 .header .menu {
@@ -258,6 +253,9 @@ button:hover {
   .header .menu-icon {
     display: none;
   }
+  .header li:nth-child(1) {
+    visibility: hidden;
+  }
 }
 @media (max-width: 500px) {
   .header .menu {
@@ -333,16 +331,19 @@ button:hover {
     margin-bottom: 1em;
     text-align: center;
   }
+  .hero_heading h1 {
+    white-space: nowrap;
+    font-size: 12vw;
+    text-align: center;
+  }
+  .latest_recipes {
+    background: linear-gradient(to top, #FAFAFA 71%, transparent 0%);
+  }
+  .latest_recipes row:nth-last-of-type(1) {
+    padding-bottom: -1em;
+  }
 }
-.latest_recipes {
-  background: linear-gradient(to top, #FAFAFA 71%, transparent 0%);
-}
-
-.latest_recipes row:nth-last-of-type(1) {
-  padding-bottom: -1em;
-}
-
-@media (max-width: 500px) {
+@media (max-width: 499px) and (max-width: 500px) {
   .latest_recipes p {
     margin-bottom: 0.5em;
     text-align: center;
@@ -501,7 +502,7 @@ button:hover {
 
 @media (max-width: 500px) {
   .video_recipes_heading {
-    text-align: center;
+    text-align: left;
   }
 }
 .bottom_card {
@@ -729,13 +730,20 @@ button:hover {
   margin-top: 2em;
 }
 
+.image2 {
+  display: none;
+}
+
 @media (max-width: 500px) {
   .social_media {
     padding-left: 25px;
     padding-right: 25px;
   }
-  .social_media img {
-    background-color: #D0D0D0;
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: block;
   }
 }
 .subscribe {
@@ -759,10 +767,6 @@ button:hover {
 
 .subscribe_heading p {
   color: #E3CDB1;
-}
-
-.subscribe_heading p:first-of-type {
-  display: none;
 }
 
 @media (max-width: 500px) {

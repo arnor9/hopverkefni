@@ -24,13 +24,10 @@
       text-decoration: none; }
     .header a {
       color: #9B9B9B; }
-      .header li:nth-child(1) {
-        visibility: hidden; }
+      
     @media (max-width: 500px) {
       .header .logo {
         padding: 15px 10px; } 
-    .header li a :nth-child(1) {
-            visibility: visible; }
     }
   
   .header .menu {
@@ -102,8 +99,10 @@
       max-height: none; }
     .header .menu-icon {
       display: none; }
+    .header li:nth-child(1) {
+        visibility: hidden; } }
 
-    }
+    
   
   @media (max-width: 500px) {
     
@@ -119,8 +118,8 @@
       text-align: center;
       font-family: 'Playfair Display';
       border-bottom: 1px solid #F7F1EB; }
-    .header li a :nth-child(1) {
-      visibility: visible; }
+      .header li a :nth-child(1) {
+        visibility:visible; }
     .header_fullscreen {
       margin-left: -30px; } 
       .hero_text {
