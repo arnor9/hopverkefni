@@ -677,19 +677,6 @@ button:hover {
   left: 589px;
 }
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  margin-top: auto;
-}
-
-.footer hr {
-  margin-top: 4.44em;
-  width: 1290px;
-}
-
 @media (max-width: 500px) {
   .footer_text1 {
     display: none;
@@ -704,32 +691,6 @@ button:hover {
     display: block;
   }
 }
-.join_us {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  padding-top: 70px;
-  padding-bottom: 80px;
-  margin: 0;
-}
-
-.join_us_text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 17px;
-  color: #000000;
-}
-
-.social_media {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 2em;
-}
-
 .image2 {
   display: none;
 }
@@ -958,17 +919,72 @@ input {
   margin-left: 130px;
 }
 
-.ingredient p {
-  color: #9B9B9B !important;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
 }
 
-.ingredients_container {
-  margin-top: 3em;
+.footer hr {
+  margin-top: 4.44em;
+  width: 1290px;
 }
 
-.ingredients_container h2 {
-  margin-bottom: 1em;
+.join_us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.join_us_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #000000;
+}
+
+.social_media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 2em;
+}
+
+.image2 {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .social_media {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .image1 {
+    display: none;
+  }
+  .image2 {
+    display: block;
+  }
+}
+.yamyam_link {
+  margin-top: 1em;
+}
+
+.yamyam_link a {
   color: #D0D0D0;
+  text-decoration: none;
+}
+
+.yamyam_link:hover {
+  text-decoration: underline;
 }
 
 .recipe_ingredient {
@@ -985,6 +1001,19 @@ input {
   font-size: 18px;
   margin-bottom: 1em;
   color: #000000;
+}
+
+.ingredient p {
+  color: #9B9B9B !important;
+}
+
+.ingredients_container {
+  margin-top: 3em;
+}
+
+.ingredients_container h2 {
+  margin-bottom: 1em;
+  color: #D0D0D0;
 }
 
 .method {

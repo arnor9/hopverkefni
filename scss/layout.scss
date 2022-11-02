@@ -306,15 +306,7 @@
     top: 80px;
     left: 589px; }
   
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    margin-top: auto; }
-    .footer hr {
-      margin-top: 4.44em;
-      width: 1290px; }
+  
   
   @media (max-width: 500px) {
     .footer_text1 {
@@ -326,28 +318,7 @@
       .footer_text2 {
         display: block; } }
   
-  .join_us {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 80px;
-    margin: 0; }
-  
-  .join_us_text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 17px;
-    color: #000000; }
-  
-  .social_media {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 2em; }
+ 
 
     .image2 {
         display: none;
@@ -514,52 +485,8 @@
     margin-top: 70px;
     margin-left: 130px; }
   
-  .ingredient p {
-    color: #9B9B9B !important; }
+ 
   
-  .ingredients_container {
-    margin-top: 3em; }
-    .ingredients_container h2 {
-      margin-bottom: 1em;
-      color: #D0D0D0; }
   
-  .recipe_ingredient {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 0; }
-    .recipe_ingredient p {
-      font-weight: 300;
-      font-size: 18px;
-      margin-bottom: 1em;
-      color: #000000; }
   
-  .method {
-    display: flex; }
-    .method h2 {
-      font-size: 40px;
-      color: #D0D0D0;
-      margin-bottom: 40px;
-      margin-top: 70px; }
   
-  .method_container p {
-    font-size: 18px;
-    font-weight: 300;
-    color: #5E5B69;
-    margin-bottom: 1rem;
-    line-height: 32px;
-    margin-bottom: 3em; }
-  
-  .method_container h2 {
-    margin-bottom: 1.5em;
-    color: #D0D0D0; }
-  
-  .amount {
-    font-size: 36px;
-    color: #E3CDB1;
-    margin-right: 50px;
-    font-family: "Playfair Display"; }
-    .amount span.amount {
-      color: #E3CDB1; }
